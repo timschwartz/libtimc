@@ -1,0 +1,10 @@
+<map id="include/stdint.h" name="include/stdint.h">
+<area shape="rect" id="node2" href="$stdio_8h.html" title="include/stdio.h" alt="" coords="74,80,181,107"/>
+<area shape="rect" id="node3" href="$string_8h.html" title="include/string.h" alt="" coords="205,80,316,107"/>
+<area shape="rect" id="node7" href="$time_8h.html" title="include/time.h" alt="" coords="340,80,443,107"/>
+<area shape="rect" id="node9" href="$types_8h.html" title="include/sys/types.h" alt="" coords="467,80,601,107"/>
+<area shape="rect" id="node4" href="$memset_8c.html" title="string/memset.c" alt="" coords="5,155,121,181"/>
+<area shape="rect" id="node5" href="$strchr_8c.html" title="string/strchr.c" alt="" coords="145,155,248,181"/>
+<area shape="rect" id="node6" href="$strlen_8c.html" title="string/strlen.c" alt="" coords="273,155,374,181"/>
+<area shape="rect" id="node8" href="$stat_8h.html" title="include/sys/stat.h" alt="" coords="398,155,523,181"/>
+</map>

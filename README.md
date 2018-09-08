@@ -1,1 +1,1 @@
-# timlibc
+# libtimc
