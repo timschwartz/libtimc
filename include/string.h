@@ -26,4 +26,11 @@ const char *strchr(const char *s, int c);
 int strcmp(const char *s1, const char *s2);
 
 size_t strlen(const char *s);
+
+/** Copy 'n' characters from 's2' to 's1'.
+  *
+  *   \param s1 destination string
+  *   \param s2 source string
+  *   \return destination
+  */
 char *strncpy(char *restrict s1, const char *restrict s2, size_t n);

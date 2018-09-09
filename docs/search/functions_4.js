@@ -9,5 +9,5 @@ var searchData=
   ['strcmp',['strcmp',['../string_8h.html#a11bd144d7d44914099a3aeddf1c8567d',1,'strcmp(const char *s1, const char *s2):&#160;strcmp.c'],['../strcmp_8c.html#a11bd144d7d44914099a3aeddf1c8567d',1,'strcmp(const char *s1, const char *s2):&#160;strcmp.c']]],
   ['strcpy',['strcpy',['../stdlib_8h.html#a7a82515b5d377be04817715c5465b647',1,'stdlib.h']]],
   ['strlen',['strlen',['../string_8h.html#aa383452fe445bfae989358c9d7d96f4f',1,'strlen(const char *s):&#160;strlen.c'],['../strlen_8c.html#aa383452fe445bfae989358c9d7d96f4f',1,'strlen(const char *s):&#160;strlen.c']]],
-  ['strncpy',['strncpy',['../string_8h.html#a31c95a7c8039b460bbc5416df853a57d',1,'string.h']]]
+  ['strncpy',['strncpy',['../string_8h.html#a31c95a7c8039b460bbc5416df853a57d',1,'strncpy(char *restrict s1, const char *restrict s2, size_t n):&#160;strncpy.c'],['../strncpy_8c.html#a31c95a7c8039b460bbc5416df853a57d',1,'strncpy(char *restrict s1, const char *restrict s2, size_t n):&#160;strncpy.c']]]
 ];

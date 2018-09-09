@@ -87,6 +87,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" id="node3" href="strchr_8c.html" title="string/strchr.c" alt="" coords="145,80,248,107"/>
 <area shape="rect" id="node4" href="strcmp_8c.html" title="string/strcmp.c" alt="" coords="273,80,382,107"/>
 <area shape="rect" id="node5" href="strlen_8c.html" title="string/strlen.c" alt="" coords="406,80,507,107"/>
+<area shape="rect" id="node6" href="strncpy_8c.html" title="string/strncpy.c" alt="" coords="531,80,643,107"/>
 </map>
 </div>
 </div>
@@ -283,13 +284,25 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Copy 'n' characters from 's2' to 's1'.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s1</td><td>destination string </td></tr>
+    <tr><td class="paramname">s2</td><td>source string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>destination </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="strncpy_8c_source.html#l00003">3</a> of file <a class="el" href="strncpy_8c_source.html">strncpy.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordtype">size_t</span> counter = 0;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="stdint_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> source_end = 0;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">while</span>(counter &lt; n)</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    {</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="keywordflow">if</span>(source_end) s1[counter] = 0;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordflow">else</span> s1[counter] = s2[counter];</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        counter++;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keywordflow">if</span>(s2[counter] == <span class="charliteral">&#39;\0&#39;</span>) source_end = 1;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    }</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">return</span> s1;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div><div class="ttc" id="stdint_8h_html_aba7bc1797add20fe3efdf37ced1182c5"><div class="ttname"><a href="stdint_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a></div><div class="ttdeci">unsigned char uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="stdint_8h_source.html#l00005">stdint.h:5</a></div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 9 2018 00:38:19 for libtimc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Sep 9 2018 05:37:55 for libtimc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

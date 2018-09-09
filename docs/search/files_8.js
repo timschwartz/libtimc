@@ -12,5 +12,6 @@ var searchData=
   ['strcmp_2ec',['strcmp.c',['../strcmp_8c.html',1,'']]],
   ['string_2eh',['string.h',['../string_8h.html',1,'']]],
   ['strings_2eh',['strings.h',['../strings_8h.html',1,'']]],
-  ['strlen_2ec',['strlen.c',['../strlen_8c.html',1,'']]]
+  ['strlen_2ec',['strlen.c',['../strlen_8c.html',1,'']]],
+  ['strncpy_2ec',['strncpy.c',['../strncpy_8c.html',1,'']]]
 ];

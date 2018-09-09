@@ -47,6 +47,7 @@ var searchData=
   ['strings_2eh',['strings.h',['../strings_8h.html',1,'']]],
   ['strlen',['strlen',['../string_8h.html#aa383452fe445bfae989358c9d7d96f4f',1,'strlen(const char *s):&#160;strlen.c'],['../strlen_8c.html#aa383452fe445bfae989358c9d7d96f4f',1,'strlen(const char *s):&#160;strlen.c']]],
   ['strlen_2ec',['strlen.c',['../strlen_8c.html',1,'']]],
-  ['strncpy',['strncpy',['../string_8h.html#a31c95a7c8039b460bbc5416df853a57d',1,'string.h']]],
+  ['strncpy',['strncpy',['../string_8h.html#a31c95a7c8039b460bbc5416df853a57d',1,'strncpy(char *restrict s1, const char *restrict s2, size_t n):&#160;strncpy.c'],['../strncpy_8c.html#a31c95a7c8039b460bbc5416df853a57d',1,'strncpy(char *restrict s1, const char *restrict s2, size_t n):&#160;strncpy.c']]],
+  ['strncpy_2ec',['strncpy.c',['../strncpy_8c.html',1,'']]],
   ['suseconds_5ft',['suseconds_t',['../time_8h.html#af28078005859af6cd1418116b137ea5d',1,'time.h']]]
 ];
