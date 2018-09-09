@@ -85,7 +85,8 @@ This graph shows which files directly or indirectly include this file:</div>
 <map name="include_2string_8hdep" id="include_2string_8hdep">
 <area shape="rect" id="node2" href="memset_8c.html" title="string/memset.c" alt="" coords="5,80,121,107"/>
 <area shape="rect" id="node3" href="strchr_8c.html" title="string/strchr.c" alt="" coords="145,80,248,107"/>
-<area shape="rect" id="node4" href="strlen_8c.html" title="string/strlen.c" alt="" coords="273,80,374,107"/>
+<area shape="rect" id="node4" href="strcmp_8c.html" title="string/strcmp.c" alt="" coords="273,80,382,107"/>
+<area shape="rect" id="node5" href="strlen_8c.html" title="string/strlen.c" alt="" coords="406,80,507,107"/>
 </map>
 </div>
 </div>
@@ -217,7 +218,18 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Compares two strings.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s1</td><td>string 1 </td></tr>
+    <tr><td class="paramname">s2</td><td>string 2 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>relationship between strings </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="strcmp_8c_source.html#l00003">3</a> of file <a class="el" href="strcmp_8c_source.html">strcmp.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordtype">size_t</span> counter = 0;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">while</span>(*s1)</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    {</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keywordflow">if</span>(*s1 != *s2) <span class="keywordflow">break</span>;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        s1++;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        s2++;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    }</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">return</span> *(<span class="keywordtype">int</span> *)s1 - *(<span class="keywordtype">int</span> *)s2;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div></div><!-- fragment -->
 </div>
 </div>
 <a id="aa383452fe445bfae989358c9d7d96f4f"></a>
@@ -277,7 +289,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 8 2018 16:42:41 for libtimc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Sep 9 2018 00:38:19 for libtimc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

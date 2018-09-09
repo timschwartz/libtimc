@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>libtimc: string/strchr.c File Reference</title>
+<title>libtimc: string/strcmp.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -66,47 +66,45 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">strchr.c File Reference</div>  </div>
+<div class="title">strcmp.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="string_8h_source.html">string.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="stdlib_8h_source.html">stdlib.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for strchr.c:</div>
+Include dependency graph for strcmp.c:</div>
 <div class="dyncontent">
-<div class="center"><img src="strchr_8c__incl.png" border="0" usemap="#string_2strchr_8c" alt=""/></div>
-<map name="string_2strchr_8c" id="string_2strchr_8c">
-<area shape="rect" id="node2" href="string_8h.html" title="string.h" alt="" coords="5,80,71,107"/>
-<area shape="rect" id="node4" href="stdlib_8h.html" title="stdlib.h" alt="" coords="95,80,159,107"/>
-<area shape="rect" id="node3" href="stdint_8h.html" title="stdint.h" alt="" coords="5,155,71,181"/>
+<div class="center"><img src="strcmp_8c__incl.png" border="0" usemap="#string_2strcmp_8c" alt=""/></div>
+<map name="string_2strcmp_8c" id="string_2strcmp_8c">
+<area shape="rect" id="node2" href="string_8h.html" title="string.h" alt="" coords="27,80,93,107"/>
+<area shape="rect" id="node3" href="stdint_8h.html" title="stdint.h" alt="" coords="27,155,93,181"/>
 </map>
 </div>
 </div>
-<p><a href="strchr_8c_source.html">Go to the source code of this file.</a></p>
+<p><a href="strcmp_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a29ec2d8b43d499f6f08f54db7e0091b3"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="strchr_8c.html#a29ec2d8b43d499f6f08f54db7e0091b3">strchr</a> (const char *s, int c)</td></tr>
-<tr class="separator:a29ec2d8b43d499f6f08f54db7e0091b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11bd144d7d44914099a3aeddf1c8567d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="strcmp_8c.html#a11bd144d7d44914099a3aeddf1c8567d">strcmp</a> (const char *s1, const char *s2)</td></tr>
+<tr class="separator:a11bd144d7d44914099a3aeddf1c8567d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a29ec2d8b43d499f6f08f54db7e0091b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29ec2d8b43d499f6f08f54db7e0091b3">&#9670;&nbsp;</a></span>strchr()</h2>
+<a id="a11bd144d7d44914099a3aeddf1c8567d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11bd144d7d44914099a3aeddf1c8567d">&#9670;&nbsp;</a></span>strcmp()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const char* strchr </td>
+          <td class="memname">int strcmp </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>s</em>, </td>
+          <td class="paramname"><em>s1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>c</em>&#160;</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>s2</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -115,21 +113,18 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Return a pointer to the first occurrence of 'c' in 's'.</p>
+<p>Compares two strings.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">s</td><td>pointer to string. </td></tr>
-    <tr><td class="paramname">c</td><td>character to search for. </td></tr>
+    <tr><td class="paramname">s1</td><td>string 1 </td></tr>
+    <tr><td class="paramname">s2</td><td>string 2 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Pointer to first occurrence. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>relationship between strings </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="strchr_8c_source.html#l00004">4</a> of file <a class="el" href="strchr_8c_source.html">strchr.c</a>.</p>
-
-<p class="reference">References <a class="el" href="stddef_8h_source.html#l00005">NULL</a>.</p>
-<div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">while</span>(*s != <span class="charliteral">&#39;\0&#39;</span>)</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    {</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keywordflow">if</span>(*s == c) <span class="keywordflow">return</span> s;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        s++;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    }</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">if</span>(c == <span class="charliteral">&#39;\0&#39;</span>) <span class="keywordflow">return</span> s;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div><div class="ttc" id="stddef_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="stddef_8h_source.html#l00005">stddef.h:5</a></div></div>
-</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="strcmp_8c_source.html#l00003">3</a> of file <a class="el" href="strcmp_8c_source.html">strcmp.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordtype">size_t</span> counter = 0;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">while</span>(*s1)</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    {</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keywordflow">if</span>(*s1 != *s2) <span class="keywordflow">break</span>;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        s1++;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        s2++;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    }</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">return</span> *(<span class="keywordtype">int</span> *)s1 - *(<span class="keywordtype">int</span> *)s2;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

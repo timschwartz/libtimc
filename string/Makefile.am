@@ -1,2 +1,2 @@
 noinst_LTLIBRARIES = libstring.la
-libstring_la_SOURCES = strlen.c memset.c strchr.c
+libstring_la_SOURCES = memset.c strchr.c strcmp.c strlen.c

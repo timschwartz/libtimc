@@ -17,6 +17,13 @@ void *memset(void *s, int c, size_t n);
   */
 const char *strchr(const char *s, int c);
 
+/** Compares two strings.
+  *
+  *   \param s1 string 1
+  *   \param s2 string 2
+  *   \return relationship between strings
+  */
 int strcmp(const char *s1, const char *s2);
+
 size_t strlen(const char *s);
 char *strncpy(char *restrict s1, const char *restrict s2, size_t n);
