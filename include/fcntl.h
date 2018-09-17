@@ -1,4 +1,5 @@
-#ifndef _FCNTL_H
-#define _FCNTL_H
+#pragma once
 
-#endif 
+#define O_RDONLY    0x0000
+
+int  open(const char *, int, ...);

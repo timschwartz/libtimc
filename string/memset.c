@@ -7,4 +7,5 @@ void *memset(void *s, int c, size_t n)
     {
         p[counter] = c;
     }
+    return s;
 }
